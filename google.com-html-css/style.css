@@ -1,0 +1,124 @@
+
+ul>a, a
+{
+    color: black;
+    text-decoration: none;
+    list-style:none;  
+}
+
+
+ul > a:hover,a:focus, a:active{
+    color:black;
+    text-decoration:underline;
+    text-decoration-thickness: 0.5px;
+}
+
+a[href= "https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home"]{
+    color:black;
+    text-decoration:none;
+}
+
+a[href= "https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home"]:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+#topNavRight{
+    justify-content: flex-end;
+
+    display:flex;
+    width:80%;
+}
+
+#topNavRight > li, a {
+    flex-direction: space-around;
+    padding-right:1em;
+    
+}
+
+#topNavLeft{
+    width:100%;
+}
+
+#topNav{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;   
+}
+
+#googleLogo{
+
+    margin:auto;
+}
+#logoContainer{
+
+    display:flex;
+    flex-direction:column;
+}
+
+#searchBar{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    height:2em;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+}
+
+
+#searchBarContainer:hover{
+    color:Gray;
+
+}
+
+#searchBarContainer{
+
+
+}
+
+#searchBarWrapper{
+    border-radius:round;
+
+}
+
+
+#googleSection{
+
+}
+
+#carbon{
+    margin-top:1em;
+    background:#F6F0ED;
+    height:2em;
+}
+
+footer{
+ 
+    width:100%;
+    bottom: 0;
+    position:fixed;
+    background:#F6F0ED;
+}
+
+#footerNav{
+    display:flex;
+
+    justify-content:space-between;
+    position:fixed;
+    bottom:0;
+    width:100%;
+
+}
+
+#footerNavLeft{
+    justify-content:flex-start;
+
+}
+
+#footerNavRight{
+
+
+}
